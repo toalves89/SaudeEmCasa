@@ -16,7 +16,15 @@ namespace SaudeEmCasa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipal());
+            //Chama tela de login antes do Menu
+//            frmLogin frm = new frmLogin();
+//            frm.ShowDialog();
+
+//            if (frm.LoginComSucesso)
+//            {
+                Application.Run(new frmPrincipal());
+//            }
+
         }
     }
 }

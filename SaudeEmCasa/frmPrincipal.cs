@@ -19,7 +19,15 @@ namespace SaudeEmCasa
 
         private void vendaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
    
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+
+            pnlEscTab.Location = new Point(3, this.Size.Height - 60);
         }
     }
 }
