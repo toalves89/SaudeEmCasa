@@ -16,5 +16,10 @@ namespace SaudeEmCasa
         {
             InitializeComponent();
         }
+
+        private void vendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+   
+        }
     }
 }
